@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.table {
+  border-collapse: collapse;
+  border-color: #dd013f;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "Montserrat";
+}
+
+.table td {
+  border-color: #d3d3d3; /*grey*/
+}
+.userList {
+  background-color: #dd013f;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.flex-box {
+  display: flex;
+  justify-content: end;
+}
+
+#projContainer {
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-header {
+  color: #081430;
+  font-family: "Marcellus";
+  font-size: 1.02306cm;
+}
+h2 {
+  size: 24;
+}
+.btn,
+.addModal,
+.editModal {
+  font-family: "Montserrat";
+}
+
+.addEdbtn {
+}
